@@ -26,3 +26,8 @@ document.write("Regalo de navidad 2023: " + regalo);
 const urlUniverse = "https://universe.rollingcodeschool.com";
 
 document.write("<br>Pagina de Universe: " + urlUniverse);
+
+let precio = 1100;
+let impuesto = 600;
+
+document.write("<br>El precio del iPhone 15 es: $" + (precio + impuesto) + ' USD');
